@@ -1,4 +1,7 @@
-function LevelUpRollTable() {
+function LevelUpRollTable({ items }) {
+
+    
+
     return (
         <>
           <table>
@@ -15,6 +18,7 @@ function LevelUpRollTable() {
                     2
                 </td>
                 <td>
+                    { items[0].advance }
                 </td>
             </tr>
             <tr>
@@ -22,6 +26,7 @@ function LevelUpRollTable() {
                     3
                 </td>
                 <td>
+                    { items[1].advance }
                 </td>
             </tr>
             <tr>
@@ -29,6 +34,7 @@ function LevelUpRollTable() {
                     4
                 </td>
                 <td>
+                    { items[2].advance }
                 </td>
             </tr>
             <tr>
@@ -36,6 +42,7 @@ function LevelUpRollTable() {
                     5
                 </td>
                 <td>
+                    { items[3].advance }
                 </td>
             </tr>
             <tr>
@@ -43,6 +50,7 @@ function LevelUpRollTable() {
                     6
                 </td>
                 <td>
+                    { items[4].advance }
                 </td>
             </tr>
             <tr>
@@ -50,6 +58,7 @@ function LevelUpRollTable() {
                     7
                 </td>
                 <td>
+                    { items[5].advance }
                 </td>
             </tr>
             <tr>
@@ -57,6 +66,7 @@ function LevelUpRollTable() {
                     8
                 </td>
                 <td>
+                    { items[6].advance }
                 </td>
             </tr>
             <tr>
@@ -64,6 +74,7 @@ function LevelUpRollTable() {
                     9
                 </td>
                 <td>
+                    { items[7].advance }
                 </td>
             </tr>
             <tr>
@@ -71,6 +82,7 @@ function LevelUpRollTable() {
                     10
                 </td>
                 <td>
+                    { items[8].advance }
                 </td>
             </tr>
             <tr>
@@ -78,6 +90,7 @@ function LevelUpRollTable() {
                     11
                 </td>
                 <td>
+                    { items[9].advance }
                 </td>
             </tr>
             <tr>
@@ -85,6 +98,7 @@ function LevelUpRollTable() {
                     12
                 </td>
                 <td>
+                    { items[10].advance }
                 </td>
             </tr>
           </table>
