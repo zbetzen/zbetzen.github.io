@@ -1,5 +1,27 @@
+import LevelUpRollTable from "./LevelUpRollTable";
+
 const Vizier = () => {
-  return <h1>Vizier</h1>;
-};
+  const myItems = [
+    {id: 2, advance: 'Con'},
+    {id: 3, advance: 'Int'},
+    {id: 4, advance: 'Int'},
+    {id: 5, advance: 'Wis'},
+    {id: 6, advance: 'Cha'},
+    {id: 7, advance: 'd8 Effort'},
+    {id: 8, advance: 'd10 Effort'},
+    {id: 9, advance: 'd10 Effort'},
+    {id: 10, advance: 'd12 Effort'}
+  ];
+
+    return (
+      <>
+        <h1>Vizier</h1>
+        <h2>Background</h2>
+        <h2>Starting Equipment</h2>
+        <h2>Level Up Table</h2>
+        <LevelUpRollTable items={myItems}/>
+      </>
+    );
+  };
 
 export default Vizier;

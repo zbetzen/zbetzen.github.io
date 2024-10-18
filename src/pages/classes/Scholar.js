@@ -1,18 +1,15 @@
 import LevelUpRollTable from "./LevelUpRollTable";
 
-const Knight = () => {
+const Scholar = () => {
   const myItems = [
-    {id: 2, advance: 'Str'},
-    {id: 3, advance: 'Str'},
-    {id: 4, advance: 'Con'},
-    {id: 5, advance: 'Dex'},
-    {id: 7, advance: 'd8 Effort'},
-    {id: 8, advance: 'd12 Effort'}
+    {id: 2, advance: 'Int'},
+    {id: 3, advance: 'd10 Effort'},
+    {id: 4, advance: 'd10 Effort'}
   ];
 
     return (
       <>
-        <h1>Knight</h1>
+        <h1>Scholar</h1>
         <h2>Background</h2>
         <h2>Starting Equipment</h2>
         <h2>Level Up Table</h2>
@@ -20,5 +17,5 @@ const Knight = () => {
       </>
     );
   };
-  
-  export default Knight;
+
+export default Scholar;

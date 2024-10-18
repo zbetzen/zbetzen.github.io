@@ -1,18 +1,17 @@
 import LevelUpRollTable from "./LevelUpRollTable";
 
-const Knight = () => {
+const Hermit = () => {
   const myItems = [
-    {id: 2, advance: 'Str'},
-    {id: 3, advance: 'Str'},
+    {id: 3, advance: 'Dex'},
     {id: 4, advance: 'Con'},
-    {id: 5, advance: 'Dex'},
-    {id: 7, advance: 'd8 Effort'},
-    {id: 8, advance: 'd12 Effort'}
+    {id: 6, advance: 'Wis'},
+    {id: 8, advance: 'd4 Effort'},
+    {id: 8, advance: 'd4 Effort'}
   ];
 
     return (
       <>
-        <h1>Knight</h1>
+        <h1>Hermit</h1>
         <h2>Background</h2>
         <h2>Starting Equipment</h2>
         <h2>Level Up Table</h2>
@@ -20,5 +19,5 @@ const Knight = () => {
       </>
     );
   };
-  
-  export default Knight;
+
+export default Hermit;
