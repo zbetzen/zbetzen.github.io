@@ -24,6 +24,7 @@ import Merchant from "./pages/classes/Merchant";
 import Noble from "./pages/classes/Noble";
 import Performer from "./pages/classes/Performer";
 import Wanderer from "./pages/classes/Wanderer";
+import Scholar from "./pages/classes/Scholar";
 
 function App() {
   return (
@@ -52,6 +53,7 @@ function App() {
             <Route path="Performer" element={<Performer />} />
             <Route path="Vizier" element={<Vizier />} />
             <Route path="Priest" element={<Priest />} />
+            <Route path="Scholar" element={<Scholar />} />
             <Route path="Wanderer" element={<Wanderer />} />
           </Route>
           <Route path="*" element={<NoPage />} />
