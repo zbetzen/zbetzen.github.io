@@ -2,7 +2,7 @@ function Image({ filename }) {
 
     filename = "/images/"+filename;
     return (
-        <img src={filename}/>
+        <a href={filename} target="_blank"><img src={filename}/></a>
       );
   }
   

@@ -1,6 +1,6 @@
 import LevelUpRollTable from "./LevelUpRollTable";
 
-const Priest = () => {
+const Cultist = () => {
   const myItems = [
     {id: 2, advance: 'Con'},
     {id: 3, advance: 'Wis'},
@@ -12,14 +12,14 @@ const Priest = () => {
   ];
 
     return (
-      <>
-        <h1>Priest</h1>
+      <div class="bodyElement">
+        <h1>Cultist</h1>
         <h2>Background</h2>
         <h2>Starting Equipment</h2>
         <h2>Level Up Table</h2>
         <LevelUpRollTable items={myItems}/>
-      </>
+      </div>
     );
   };
 
-export default Priest;
+export default Cultist;

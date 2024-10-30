@@ -9,13 +9,7 @@ const Classes = () => {
             <Link to="/classes/Artisan">Artisan</Link>
           </li>
           <li>
-            <Link to="/classes/Carter">Carter</Link>
-          </li>
-          <li>
             <Link to="/classes/Courtesan">Courtesan</Link>
-          </li>
-          <li>
-            <Link to="/classes/Hermit">Hermit</Link>
           </li>
           <li>
             <Link to="/classes/Hunter">Hunter</Link>
@@ -27,7 +21,7 @@ const Classes = () => {
             <Link to="/classes/Laborer">Laborer</Link>
           </li>
           <li>
-            <Link to="/classes/LevyTroop">Levy Troop</Link>
+            <Link to="/classes/Conscript">Conscript</Link>
           </li>
           <li>
             <Link to="/classes/Merchant">Merchant</Link>
@@ -39,13 +33,10 @@ const Classes = () => {
             <Link to="/classes/Performer">Performer</Link>
           </li>
           <li>
-            <Link to="/classes/Priest">Priest</Link>
+            <Link to="/classes/Cultist">Cultist</Link>
           </li>
           <li>
             <Link to="/classes/Scholar">Scholar</Link>
-          </li>
-          <li>
-            <Link to="/classes/Vizier">Vizier</Link>
           </li>
           <li>
             <Link to="/classes/Wanderer">Wanderer</Link>

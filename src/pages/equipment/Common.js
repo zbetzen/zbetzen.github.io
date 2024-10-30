@@ -1,6 +1,6 @@
 const Common = () => {
   return (
-    <>
+    <div class="bodyElement">
       <h1>Ranged Weapons</h1>
       <table>
         <tr>
@@ -534,7 +534,7 @@ const Common = () => {
           </td>
         </tr>
       </table>
-    </>
+    </div>
   );
 };
 

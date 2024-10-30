@@ -1,7 +1,7 @@
 function LevelUpRollTable({ items }) {
 
     return (
-        <>
+        <div class="bodyElement">
           <table>
             <tr>
                 <td>
@@ -13,7 +13,7 @@ function LevelUpRollTable({ items }) {
             </tr>
             {items.map((item) => <tr><td>{item.id}</td><td>+1 to your {item.advance}</td></tr>)}
           </table>
-        </>
+        </div>
       );
   }
   

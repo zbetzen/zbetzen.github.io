@@ -1,6 +1,6 @@
 import LevelUpRollTable from "./LevelUpRollTable";
 
-const LevyTroop = () => {
+const Conscript = () => {
   const myItems = [
     {id: 2, advance: 'Str'},
     {id: 4, advance: 'Con'},
@@ -11,14 +11,14 @@ const LevyTroop = () => {
   ];
 
     return (
-      <>
-        <h1>Levy Troop</h1>
+      <div class="bodyElement">
+        <h1>Conscript</h1>
         <h2>Background</h2>
         <h2>Starting Equipment</h2>
         <h2>Level Up Table</h2>
         <LevelUpRollTable items={myItems}/>
-      </>
+      </div>
     );
   };
   
-  export default LevyTroop;
+  export default Conscript;

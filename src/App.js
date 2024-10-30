@@ -7,19 +7,16 @@ import Classes from "./pages/Classes";
 import NoPage from "./pages/NoPage";
 import Hunter from "./pages/classes/Hunter";
 import Knight from "./pages/classes/Knight";
-import Vizier from "./pages/classes/Vizier";
 import ClassesHome from "./pages/classes/ClassesHome";
 import Relics from "./pages/equipment/Relics";
 import EquipmentHome from "./pages/equipment/EquipmentHome";
 import Common from "./pages/equipment/Common";
 import Unique from "./pages/equipment/Unique";
-import Priest from "./pages/classes/Priest";
+import Cultist from "./pages/classes/Cultist";
 import Artisan from "./pages/classes/Artisan";
-import Carter from "./pages/classes/Carter";
 import Courtesan from "./pages/classes/Courtesan";
-import Hermit from "./pages/classes/Hermit";
 import Laborer from "./pages/classes/Laborer";
-import LevyTroop from "./pages/classes/LevyTroop";
+import Conscript from "./pages/classes/Conscript";
 import Merchant from "./pages/classes/Merchant";
 import Noble from "./pages/classes/Noble";
 import Performer from "./pages/classes/Performer";
@@ -41,18 +38,15 @@ function App() {
           <Route path="classes" element={<Classes />}>
             <Route index element={<ClassesHome />} />
             <Route path="Artisan" element={<Artisan />} />
-            <Route path="Carter" element={<Carter />} />
             <Route path="Courtesan" element={<Courtesan />} />
-            <Route path="Hermit" element={<Hermit />} />
             <Route path="Knight" element={<Knight />} />
             <Route path="Hunter" element={<Hunter />} />
             <Route path="Laborer" element={<Laborer />} />
-            <Route path="LevyTroop" element={<LevyTroop />} />
+            <Route path="Conscript" element={<Conscript />} />
             <Route path="Merchant" element={<Merchant />} />
             <Route path="Noble" element={<Noble />} />
             <Route path="Performer" element={<Performer />} />
-            <Route path="Vizier" element={<Vizier />} />
-            <Route path="Priest" element={<Priest />} />
+            <Route path="Cultist" element={<Cultist />} />
             <Route path="Scholar" element={<Scholar />} />
             <Route path="Wanderer" element={<Wanderer />} />
           </Route>
