@@ -1,15 +1,18 @@
 import LevelUpRollTable from "./LevelUpRollTable";
 
-const Laborer = () => {
+const Fighter = () => {
   const myItems = [
-    {id: 2, advance: 'Con'},
-    {id: 3, advance: 'd4 Effort'},
-    {id: 4, advance: 'd6 Effort'}
+    {advance: 'Str'},
+    {advance: 'Dex'},
+    {advance: 'Con'},
+    {advance: 'd6 Effort'},
+    {advance: 'd8 Effort'},
+    {advance: 'd12 Effort'}
   ];
 
     return (
       <div class="bodyElement">
-        <h1>Laborer</h1>
+        <h1>Fighter</h1>
         <h2>Background</h2>
         <h2>Starting Equipment</h2>
         <h2>Level Up Table</h2>
@@ -18,4 +21,4 @@ const Laborer = () => {
     );
   };
 
-export default Laborer;
+export default Fighter;

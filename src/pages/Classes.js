@@ -6,40 +6,25 @@ const Classes = () => {
       <nav>
         <ul>
           <li>
-            <Link to="/classes/Artisan">Artisan</Link>
+            <Link to="/classes/Adventurer">Adventurer</Link>
           </li>
           <li>
-            <Link to="/classes/Courtesan">Courtesan</Link>
+            <Link to="/classes/Fighter">Fighter</Link>
           </li>
           <li>
-            <Link to="/classes/Hunter">Hunter</Link>
+            <Link to="/classes/Rogue">Rogue</Link>
           </li>
           <li>
-            <Link to="/classes/Knight">Knight</Link>
-          </li>
-          <li>
-            <Link to="/classes/Laborer">Laborer</Link>
-          </li>
-          <li>
-            <Link to="/classes/Conscript">Conscript</Link>
-          </li>
-          <li>
-            <Link to="/classes/Merchant">Merchant</Link>
-          </li>
-          <li>
-            <Link to="/classes/Noble">Noble</Link>
-          </li>
-          <li>
-            <Link to="/classes/Performer">Performer</Link>
-          </li>
-          <li>
-            <Link to="/classes/Cultist">Cultist</Link>
+            <Link to="/classes/Explorer">Explorer</Link>
           </li>
           <li>
             <Link to="/classes/Scholar">Scholar</Link>
           </li>
           <li>
-            <Link to="/classes/Wanderer">Wanderer</Link>
+            <Link to="/classes/Ranger">Ranger</Link>
+          </li>
+          <li>
+            <Link to="/classes/Cleric">Cleric</Link>
           </li>
         </ul>
       </nav>

@@ -1,17 +1,18 @@
 import LevelUpRollTable from "./LevelUpRollTable";
 
-const Merchant = () => {
+const Ranger = () => {
   const myItems = [
-    {id: 2, advance: 'Wis'},
-    {id: 3, advance: 'Cha'},
-    {id: 4, advance: 'd6 Effort'},
-    {id: 5, advance: 'd10 Effort'},
-    {id: 6, advance: 'd12 Effort'}
+    {advance: 'Dex'},
+    {advance: 'Con'},
+    {advance: 'Wis'},
+    {advance: 'd4 Effort'},
+    {advance: 'd6 Effort'},
+    {advance: 'd12 Effort'}
   ];
 
     return (
       <div class="bodyElement">
-        <h1>Merchant</h1>
+        <h1>Ranger</h1>
         <h2>Background</h2>
         <h2>Starting Equipment</h2>
         <h2>Level Up Table</h2>
@@ -20,4 +21,4 @@ const Merchant = () => {
     );
   };
 
-export default Merchant;
+export default Ranger;

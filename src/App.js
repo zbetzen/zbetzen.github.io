@@ -5,23 +5,18 @@ import Home from "./pages/Home";
 import Equipment from "./pages/Equipment";
 import Classes from "./pages/Classes";
 import NoPage from "./pages/NoPage";
-import Hunter from "./pages/classes/Hunter";
-import Knight from "./pages/classes/Knight";
 import ClassesHome from "./pages/classes/ClassesHome";
 import Relics from "./pages/equipment/Relics";
 import EquipmentHome from "./pages/equipment/EquipmentHome";
 import Common from "./pages/equipment/Common";
 import Unique from "./pages/equipment/Unique";
-import Cultist from "./pages/classes/Cultist";
-import Artisan from "./pages/classes/Artisan";
-import Courtesan from "./pages/classes/Courtesan";
-import Laborer from "./pages/classes/Laborer";
-import Conscript from "./pages/classes/Conscript";
-import Merchant from "./pages/classes/Merchant";
-import Noble from "./pages/classes/Noble";
-import Performer from "./pages/classes/Performer";
-import Wanderer from "./pages/classes/Wanderer";
+import Adventurer from "./pages/classes/Adventurer";
+import Fighter from "./pages/classes/Fighter";
+import Rogue from "./pages/classes/Rogue";
+import Explorer from "./pages/classes/Explorer";
 import Scholar from "./pages/classes/Scholar";
+import Ranger from "./pages/classes/Ranger";
+import Cleric from "./pages/classes/Cleric";
 
 function App() {
   return (
@@ -37,18 +32,13 @@ function App() {
           </Route>
           <Route path="classes" element={<Classes />}>
             <Route index element={<ClassesHome />} />
-            <Route path="Artisan" element={<Artisan />} />
-            <Route path="Courtesan" element={<Courtesan />} />
-            <Route path="Knight" element={<Knight />} />
-            <Route path="Hunter" element={<Hunter />} />
-            <Route path="Laborer" element={<Laborer />} />
-            <Route path="Conscript" element={<Conscript />} />
-            <Route path="Merchant" element={<Merchant />} />
-            <Route path="Noble" element={<Noble />} />
-            <Route path="Performer" element={<Performer />} />
-            <Route path="Cultist" element={<Cultist />} />
+            <Route path="Adventurer" element={<Adventurer />} />
+            <Route path="Fighter" element={<Fighter />} />
+            <Route path="Rogue" element={<Rogue />} />
+            <Route path="Explorer" element={<Explorer />} />
             <Route path="Scholar" element={<Scholar />} />
-            <Route path="Wanderer" element={<Wanderer />} />
+            <Route path="Ranger" element={<Ranger />} />
+            <Route path="Cleric" element={<Cleric />} />
           </Route>
           <Route path="*" element={<NoPage />} />
         </Route>
