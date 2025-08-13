@@ -1,7 +1,6 @@
 img {
   max-width: 100%;
   height: auto;
-  display: block;
   margin: 10px;
 }
 
@@ -62,4 +61,39 @@ li a {
 li a:hover {
   background-color: #555;
   color: white;
+}
+
+.container {
+  position: relative;
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: 1s ease;
+  background-color: black;
+}
+
+.container:hover .overlay {
+  opacity: 0.5;
+}
+
+.overlayText {
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  transition: 1s ease;
 }
