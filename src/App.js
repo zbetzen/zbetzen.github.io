@@ -4,6 +4,7 @@ import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import Equipment from "./pages/Equipment";
 import Classes from "./pages/Classes";
+import Adversaries from "./pages/Adversaries";
 import NoPage from "./pages/NoPage";
 import ClassesHome from "./pages/classes/ClassesHome";
 import Relics from "./pages/equipment/Relics";
@@ -17,6 +18,7 @@ import Explorer from "./pages/classes/Explorer";
 import Scholar from "./pages/classes/Scholar";
 import Ranger from "./pages/classes/Ranger";
 import Cleric from "./pages/classes/Cleric";
+import Bandit from "./pages/adversaries/Bandit";
 
 function App() {
   return (
@@ -39,6 +41,9 @@ function App() {
             <Route path="Scholar" element={<Scholar />} />
             <Route path="Ranger" element={<Ranger />} />
             <Route path="Cleric" element={<Cleric />} />
+          </Route>
+          <Route path="adversaries" element={<Adversaries />}>
+            <Route path="Bandit" element={<Bandit />} />
           </Route>
           <Route path="*" element={<NoPage />} />
         </Route>

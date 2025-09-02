@@ -2,12 +2,12 @@ import LevelUpRollTable from "./LevelUpRollTable";
 
 const Explorer = () => {
   const myItems = [
-    {advance: 'Dex'},
-    {advance: 'Con'},
-    {advance: 'Wis'},
-    {advance: 'Cha'},
-    {advance: 'd6 Effort'},
-    {advance: 'd10 Effort'}
+    'Dex',
+    'Con',
+    'Wis',
+    'Cha',
+    'd6 Effort',
+    'd10 Effort'
   ];
 
     return (

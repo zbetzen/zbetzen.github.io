@@ -2,12 +2,12 @@ import LevelUpRollTable from "./LevelUpRollTable";
 
 const Ranger = () => {
   const myItems = [
-    {advance: 'Dex'},
-    {advance: 'Con'},
-    {advance: 'Wis'},
-    {advance: 'd4 Effort'},
-    {advance: 'd6 Effort'},
-    {advance: 'd12 Effort'}
+    'Dex',
+    'Con',
+    'Wis',
+    'd4 Effort',
+    'd6 Effort',
+    'd12 Effort'
   ];
 
     return (
