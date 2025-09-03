@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
+import Magic from "./pages/Magic";
 import Equipment from "./pages/Equipment";
 import Classes from "./pages/Classes";
 import Adversaries from "./pages/Adversaries";
@@ -45,6 +46,7 @@ function App() {
           <Route path="adversaries" element={<Adversaries />}>
             <Route path="Bandit" element={<Bandit />} />
           </Route>
+          <Route path="Magic" element={<Magic />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
