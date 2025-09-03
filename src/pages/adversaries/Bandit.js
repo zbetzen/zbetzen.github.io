@@ -10,6 +10,11 @@ const Bandit = () => {
       cha: 0,
       wis: 1,
       hearts: 1,
+      d4: 3,
+      d6: 2,
+      d8: 0,
+      d10: 0,
+      d12: 1,
       weapons: [
         {
           melee: true,

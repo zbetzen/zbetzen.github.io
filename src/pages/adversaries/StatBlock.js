@@ -4,6 +4,22 @@ function StatBlock({ stats }) {
     hearts.push(<img src="/images/heart.png" width="16" height="16"/>);
   }
 
+  function damage(weapon) {
+    switch(weapon.dieFace) {
+      case 4:
+        return weapon.dieFace/2+weapon.dieBonus+stats.d4;
+      case 6:
+        return weapon.dieFace/2+weapon.dieBonus+stats.d6;
+      case 8:
+        return weapon.dieFace/2+weapon.dieBonus+stats.d8;
+      case 10:
+        return weapon.dieFace/2+weapon.dieBonus+stats.d10;
+      case 12:
+        return weapon.dieFace/2+weapon.dieBonus+stats.d12;
+      default:
+        return 'incorrect die face';
+    }
+  }
     return (
         <span>
           {hearts}
@@ -44,6 +60,31 @@ function StatBlock({ stats }) {
               <td>+{stats.wis}</td>
               <td>({stats.wis + 11})</td>
             </tr>
+            <tr>
+              <td>D4 Effort</td>
+              <td>+{stats.d4}</td>
+              <td/>
+            </tr>
+            <tr>
+              <td>D6 Effort</td>
+              <td>+{stats.d6}</td>
+              <td/>
+            </tr>
+            <tr>
+              <td>D8 Effort</td>
+              <td>+{stats.d8}</td>
+              <td/>
+            </tr>
+            <tr>
+              <td>D10 Effort</td>
+              <td>+{stats.d10}</td>
+              <td/>
+            </tr>
+            <tr>
+              <td>D12 Effort</td>
+              <td>+{stats.d12}</td>
+              <td/>
+            </tr>
           </table>
           <p>HP: {stats.hearts*10+stats.con}</p>
           <h2>Weapons</h2>
@@ -61,8 +102,8 @@ function StatBlock({ stats }) {
                 <td>{item.title}</td>
                 <td>{item.melee ? 'str + ' + item.bonus : 'dex + ' + item.bonus}</td>
                 <td>{item.melee ? '(' + (item.bonus + stats.str + 11) + ')' : '(' + (item.bonus + stats.dex + 11) + ')'}</td>
-                <td>d{item.dieFace + '+' + item.dieBonus}</td>
-                <td>({item.dieFace/2 + item.dieBonus})</td>
+                <td>d{item.dieFace + '+' + item.dieBonus} + effort</td>
+                <td>({damage(item)})</td>
                 <td>{item.notes}</td>
               </tr>
             )}
