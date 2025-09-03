@@ -4,22 +4,22 @@ const Common = () => {
       <h1>Ranged Weapons</h1>
       <table>
         <tr>
-          <td>
+          <td class='tableHeader'>
             Name
           </td>
-          <td>
+          <td class='tableHeader'>
             Accuracy
           </td>
-          <td>
+          <td class='tableHeader'>
             Damage (effort)
           </td>
-          <td>
+          <td class='tableHeader'>
             Inventory slots
           </td>
-          <td>
+          <td class='tableHeader'>
             Cost
           </td>
-          <td>
+          <td class='tableHeader'>
             Notes
           </td>
         </tr>
@@ -124,22 +124,22 @@ const Common = () => {
 
       <table>
         <tr>
-          <td>
+          <td class='tableHeader'>
             Name
           </td>
-          <td>
+          <td class='tableHeader'>
             Accuracy
           </td>
-          <td>
+          <td class='tableHeader'>
             Damage (effort)
           </td>
-          <td>
+          <td class='tableHeader'>
             Inventory slots
           </td>
-          <td>
+          <td class='tableHeader'>
             Cost
           </td>
-          <td>
+          <td class='tableHeader'>
             Notes
           </td>
         </tr>
@@ -420,19 +420,19 @@ const Common = () => {
 
       <table>
         <tr>
-          <td>
+          <td class='tableHeader'>
             Name
           </td>
-          <td>
+          <td class='tableHeader'>
             Defense
           </td>
-          <td>
+          <td class='tableHeader'>
             Inventory slots
           </td>
-          <td>
+          <td class='tableHeader'>
             Cost
           </td>
-          <td>
+          <td class='tableHeader'>
             Notes
           </td>
         </tr>

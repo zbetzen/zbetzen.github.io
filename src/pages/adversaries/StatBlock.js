@@ -5,14 +5,14 @@ function StatBlock({ stats }) {
   }
 
     return (
-        <div class="bodyElement">
+        <span>
           {hearts}
           <h2>Attributes</h2>
           <table>
             <tr>
-              <td><h3>Attribute</h3></td>
-              <td><h3>Bonus</h3></td>
-              <td><h3>(TN)</h3></td>
+              <td class='tableHeader'>Attribute</td>
+              <td class='tableHeader'>Bonus</td>
+              <td class='tableHeader'>(TN)</td>
             </tr>
             <tr>
               <td>Str</td>
@@ -49,12 +49,12 @@ function StatBlock({ stats }) {
           <h2>Weapons</h2>
           <table>
             <tr>
-              <td><h3>Title</h3></td>
-              <td><h3>To Hit</h3></td>
-              <td><h3>(TN)</h3></td>
-              <td><h3>Dice</h3></td>
-              <td><h3>(Average)</h3></td>
-              <td><h3>Notes</h3></td>
+              <td class='tableHeader'>Title</td>
+              <td class='tableHeader'>To Hit</td>
+              <td class='tableHeader'>(TN)</td>
+              <td class='tableHeader'>Dice</td>
+              <td class='tableHeader'>(Average)</td>
+              <td class='tableHeader'>Notes</td>
             </tr>
             {stats.weapons.map((item) => 
               <tr>
@@ -70,10 +70,10 @@ function StatBlock({ stats }) {
           <h2>Armor</h2>
           <table>
             <tr>
-              <td><h3>Title</h3></td>
-              <td><h3>Defense</h3></td>
-              <td><h3>(TN)</h3></td>
-              <td><h3>Notes</h3></td>
+              <td class='tableHeader'>Title</td>
+              <td class='tableHeader'>Defense</td>
+              <td class='tableHeader'>(TN)</td>
+              <td class='tableHeader'>Notes</td>
             </tr>
             <tr>
                 <td>{stats.armor.title}</td>
@@ -82,7 +82,7 @@ function StatBlock({ stats }) {
                 <td>{stats.armor.notes}</td>
             </tr>
           </table>
-        </div>
+        </span>
       );
   }
   

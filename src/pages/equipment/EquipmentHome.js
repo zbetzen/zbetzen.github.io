@@ -12,16 +12,16 @@ const EquipmentHome = () => {
       </p>
       <table>
         <tr>
-          <td>
+          <td class='tableHeader'>
             Total Bonus
           </td>
-          <td>
+          <td class='tableHeader'>
             Crafter level
           </td>
-          <td>
+          <td class='tableHeader'>
             Cost multiplier
           </td>
-          <td>
+          <td class='tableHeader'>
             Extra requirements
           </td>
         </tr>
@@ -30,7 +30,7 @@ const EquipmentHome = () => {
             +1
           </td>
           <td>
-            5
+            3
           </td>
           <td>
             x2
@@ -43,7 +43,7 @@ const EquipmentHome = () => {
             +2
           </td>
           <td>
-            7
+            5
           </td>
           <td>
             x4
@@ -56,7 +56,7 @@ const EquipmentHome = () => {
             +3
           </td>
           <td>
-            9
+            7
           </td>
           <td>
             x8
@@ -69,7 +69,7 @@ const EquipmentHome = () => {
             +4
           </td>
           <td>
-            11
+            9
           </td>
           <td>
             x16
@@ -82,7 +82,7 @@ const EquipmentHome = () => {
             +5
           </td>
           <td>
-            13
+            11
           </td>
           <td>
             x32
@@ -96,7 +96,7 @@ const EquipmentHome = () => {
             +6
           </td>
           <td>
-            15
+            13
           </td>
           <td>
             x64
@@ -109,7 +109,7 @@ const EquipmentHome = () => {
             +7
           </td>
           <td>
-            17
+            15
           </td>
           <td>
             x128
@@ -122,7 +122,7 @@ const EquipmentHome = () => {
             +8
           </td>
           <td>
-            19
+            17
           </td>
           <td>
             x256
@@ -136,7 +136,7 @@ const EquipmentHome = () => {
             +9
           </td>
           <td>
-            21
+            19
           </td>
           <td>
             x512
@@ -149,7 +149,7 @@ const EquipmentHome = () => {
             +10
           </td>
           <td>
-            23
+            21
           </td>
           <td>
             x1024

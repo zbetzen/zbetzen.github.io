@@ -5,10 +5,10 @@ const ClassesHome = () => {
       <p></p>
       <table>
         <tr>
-          <td>
+          <td class='tableHeader'>
             Dice Rolled
           </td>
-          <td>
+          <td class='tableHeader'>
             Downtime Taken
           </td>
         </tr>
@@ -25,20 +25,12 @@ const ClassesHome = () => {
             2
           </td>
           <td>
-            One Week
-          </td>
-        </tr>
-        <tr>
-          <td>
-            3
-          </td>
-          <td>
             One Month
           </td>
         </tr>
         <tr>
           <td>
-            4
+            3
           </td>
           <td>
             Wintering
