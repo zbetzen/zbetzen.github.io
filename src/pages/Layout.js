@@ -15,10 +15,10 @@ const Layout = () => {
             <Link to="/classes">Classes</Link>
           </li>
           <li>
-            <Link to="/adversaries">Adversaries</Link>
+            <Link to="/Magic">Magic</Link>
           </li>
           <li>
-            <Link to="/Magic">Magic</Link>
+            <Link to="/adversaries">Adversaries</Link>
           </li>
         </ul>
       </nav>
