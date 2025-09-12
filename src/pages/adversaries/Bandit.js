@@ -10,6 +10,7 @@ const Bandit = () => {
       cha: 0,
       wis: 1,
       hearts: 1,
+      morale: 2,
       d4: 3,
       d6: 2,
       d8: 0,
@@ -37,7 +38,8 @@ const Bandit = () => {
         title: "Leather",
         bonus: 1,
         notes: "has a sigil of their bandit group painted on it"
-      }
+      },
+      abilities: []
     };
 
     return (

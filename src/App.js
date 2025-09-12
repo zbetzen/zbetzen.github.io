@@ -20,6 +20,8 @@ import Scholar from "./pages/classes/Scholar";
 import Ranger from "./pages/classes/Ranger";
 import Cleric from "./pages/classes/Cleric";
 import Bandit from "./pages/adversaries/Bandit";
+import Sphinx from "./pages/adversaries/Sphinx";
+import Brainlet from "./pages/adversaries/Brainlet";
 
 function App() {
   return (
@@ -45,6 +47,8 @@ function App() {
           </Route>
           <Route path="adversaries" element={<Adversaries />}>
             <Route path="Bandit" element={<Bandit />} />
+            <Route path="Sphinx" element={<Sphinx />} />
+            <Route path="Brainlet" element={<Brainlet />} />
           </Route>
           <Route path="Magic" element={<Magic />} />
           <Route path="*" element={<NoPage />} />

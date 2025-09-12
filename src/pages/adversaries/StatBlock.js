@@ -87,6 +87,7 @@ function StatBlock({ stats }) {
             </tr>
           </table>
           <p>HP: {stats.hearts*10+stats.con}</p>
+          <p>Morale: {stats.morale}</p>
           <h2>Weapons</h2>
           <table>
             <tr>
@@ -123,6 +124,13 @@ function StatBlock({ stats }) {
                 <td>{stats.armor.notes}</td>
             </tr>
           </table>
+          {stats.abilities.length ? <h2>Abilities</h2> : ''}
+          {stats.abilities.map((item) => 
+            <span>
+              <h3>{item.title}</h3>
+              <p>{item.description}</p>
+            </span>
+          )}
         </span>
       );
   }

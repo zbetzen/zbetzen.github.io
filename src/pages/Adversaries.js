@@ -8,6 +8,12 @@ const Adversaries = () => {
           <li>
             <Link to="/adversaries/Bandit">Bandit</Link>
           </li>
+          <li>
+            <Link to="/adversaries/Sphinx">Sphinx</Link>
+          </li>
+          <li>
+            <Link to="/adversaries/Brainlet">Brainlet</Link>
+          </li>
         </ul>
       </nav>
     
