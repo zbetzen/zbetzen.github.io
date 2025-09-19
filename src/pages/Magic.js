@@ -11,7 +11,7 @@ const Magic = () => {
       {
         title: 'Mirror Walk',
         description: 'Allows you to travel through two mirrors that you have touched today, you must be able to fit through the mirrors.',
-        effect: '1d10 + Effort miles'
+        effect: '(1d10 + Effort) miles'
       },
       {
         title: 'Messenger Pigeon',
@@ -21,12 +21,17 @@ const Magic = () => {
       {
         title: 'Filch',
         description: 'Roll INT vs WIS, Teleports an item you can see into your hand as long as you are strong enough to hold it one handed.',
-        effect: '1d10 + Effort yards'
+        effect: '(1d10 + Effort) yards'
       },
       {
         title: 'Second Impression',
         description: 'When meeting someone for the first time, roll INT vs WIS, and the subject will feel as they already know you and are on good terms. When the spell runs out they will realize you are strangers.',
-        effect: 'Subject feels they know you for (1d10 + Effort) hours'
+        effect: '(1d10 + Effort) hours'
+      },
+      {
+        title: 'Miniaturize',
+        description: 'Shrink a creature you touch down to the size of a mouse.',
+        effect: 'INT vs WIS, lasts (1d10 + Effort) hours'
       },
     ];
     return (
