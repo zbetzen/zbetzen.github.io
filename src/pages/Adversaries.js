@@ -14,6 +14,9 @@ const Adversaries = () => {
           <li>
             <Link to="/adversaries/Brainlet">Brainlet</Link>
           </li>
+          <li>
+            <Link to="/adversaries/VatThing">Vat Thing</Link>
+          </li>
         </ul>
       </nav>
     

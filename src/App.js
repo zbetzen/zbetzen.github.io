@@ -22,6 +22,7 @@ import Cleric from "./pages/classes/Cleric";
 import Bandit from "./pages/adversaries/Bandit";
 import Sphinx from "./pages/adversaries/Sphinx";
 import Brainlet from "./pages/adversaries/Brainlet";
+import VatThing from "./pages/adversaries/VatThing";
 
 function App() {
   return (
@@ -49,6 +50,7 @@ function App() {
             <Route path="Bandit" element={<Bandit />} />
             <Route path="Sphinx" element={<Sphinx />} />
             <Route path="Brainlet" element={<Brainlet />} />
+            <Route path="VatThing" element={<VatThing />} />
           </Route>
           <Route path="Magic" element={<Magic />} />
           <Route path="*" element={<NoPage />} />
