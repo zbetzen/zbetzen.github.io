@@ -11,7 +11,9 @@ const Adventurer = () => {
     'd4 Effort',
     'd6 Effort',
     'd8 Effort',
-    'd10 Effort'
+    'd10 Effort',
+    'd12 Effort',
+    'd12 Effort'
   ];
 
     return (

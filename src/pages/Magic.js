@@ -43,6 +43,11 @@ const Magic = () => {
         description: 'With a flash of light and smoke switch positions with another person that you can see.',
         effect: "INT vs WIS, teleport to another character's position and them to yours within (1d10 + Effort) yards."
       },
+      {
+        title: 'Allure',
+        description: 'Through subtle magics you can bend a crowd to your will.',
+        effect: "Roll INT vs the highest WIS in a crowd. Effects (1d10 + Effort) people. All social rolls are easy against anyone effected. Lasts until the following sunrise."
+      },
     ];
     return (
       <div class="bodyElement">
