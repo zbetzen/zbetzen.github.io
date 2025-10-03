@@ -33,6 +33,11 @@ const Magic = () => {
         description: 'Shrink a creature you touch down to the size of a mouse.',
         effect: 'INT vs WIS, lasts (1d10 + Effort) hours'
       },
+      {
+        title: 'Arcane Armor',
+        description: 'Wreathe yourself in a haze of faint blue light that protects you from harm.',
+        effect: 'Add 1d10 + Effort temporary hit points. The light and hit points fade away at the next sunrise.'
+      },
     ];
     return (
       <div class="bodyElement">
