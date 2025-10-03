@@ -36,7 +36,12 @@ const Magic = () => {
       {
         title: 'Arcane Armor',
         description: 'Wreathe yourself in a haze of faint blue light that protects you from harm.',
-        effect: 'Add 1d10 + Effort temporary hit points. The light and hit points fade away at the next sunrise.'
+        effect: 'Add (1d10 + Effort) temporary hit points. The light and hit points fade away at the next sunrise.'
+      },
+      {
+        title: 'Swap',
+        description: 'With a flash of light and smoke switch positions with another person that you can see.',
+        effect: "INT vs WIS, teleport to another character's position and them to yours within (1d10 + Effort) yards."
       },
     ];
     return (
