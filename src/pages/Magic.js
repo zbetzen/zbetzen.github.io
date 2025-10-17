@@ -48,6 +48,11 @@ const Magic = () => {
         description: 'Through subtle magics you can bend a crowd to your will.',
         effect: "Roll INT vs the highest WIS in a crowd. Effects (1d10 + Effort) people. All social rolls are easy against anyone effected. Lasts until the following sunrise."
       },
+      {
+        title: 'Dispell',
+        description: 'Focus on an ongoing spell and put it to an end.',
+        effect: "INT vs WIS, immediately end the duration of a magical effect within line of sight."
+      },
     ];
     return (
       <div class="bodyElement">
