@@ -25,7 +25,7 @@ const ClassesHome = () => {
             2
           </td>
           <td>
-            Wintering
+            Season
           </td>
         </tr>
       </table>
