@@ -25,14 +25,6 @@ const ClassesHome = () => {
             2
           </td>
           <td>
-            One Month
-          </td>
-        </tr>
-        <tr>
-          <td>
-            3
-          </td>
-          <td>
             Wintering
           </td>
         </tr>
