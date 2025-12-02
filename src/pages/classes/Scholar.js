@@ -2,14 +2,12 @@ import LevelUpRollTable from "./LevelUpRollTable";
 
 const Scholar = () => {
   const myItems = [
-    'Con',
     'Int',
     'Int',
     'Wis',
-    'Dex',
+    'Cha',
     'd8 Effort',
-    'd10 Effort',
-    'd12 Effort'
+    'd10 Effort'
   ];
 
     return (

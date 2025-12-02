@@ -7,14 +7,12 @@ const Fighter = () => {
     'Dex',
     'Con',
     'd6 Effort',
-    'd8 Effort',
-    'd8 Effort',
-    'd12 Effort'
+    'd8 Effort'
   ];
 
     return (
       <div class="bodyElement">
-        <h1>Fighter</h1>
+        <h1>Warrior</h1>
         <h2>Background</h2>
         <h2>Starting Equipment</h2>
         <h2>Level Up Table</h2>

@@ -2,13 +2,11 @@ import LevelUpRollTable from "./LevelUpRollTable";
 
 const Cleric = () => {
   const myItems = [
-    'Con',
+    'Cha',
+    'Cha',
     'Wis',
-    'Cha',
-    'Cha',
-    'd4 Effort',
-    'd10 Effort',
-    'd12 Effort',
+    'Int',
+    'd6 Effort',
     'd12 Effort'
   ];
 
