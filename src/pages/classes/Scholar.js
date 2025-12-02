@@ -4,7 +4,9 @@ const Scholar = () => {
   const myItems = [
     'Con',
     'Int',
+    'Int',
     'Wis',
+    'Dex',
     'd8 Effort',
     'd10 Effort',
     'd12 Effort'

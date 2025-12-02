@@ -5,9 +5,9 @@ const Ranger = () => {
     'Dex',
     'Con',
     'Wis',
+    'Wis',
     'd4 Effort',
-    'd6 Effort',
-    'd12 Effort'
+    'd6 Effort'
   ];
 
     return (

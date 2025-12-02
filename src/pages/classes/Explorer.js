@@ -4,8 +4,10 @@ const Explorer = () => {
   const myItems = [
     'Dex',
     'Con',
+    'Con',
     'Wis',
     'Cha',
+    'd4 Effort',
     'd6 Effort',
     'd10 Effort'
   ];

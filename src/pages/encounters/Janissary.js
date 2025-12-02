@@ -1,53 +1,53 @@
 import StatBlock from "./StatBlock";
 
-const Bandit = () => {
+const Janissary = () => {
   const myStats = 
     {
-      str: 2,
-      dex: 1,
+      str: 1,
+      dex: 2,
       con: 2,
       int: 0,
       cha: 0,
       wis: 1,
       hearts: 1,
-      morale: 2,
-      d4: 3,
-      d6: 2,
-      d8: 0,
+      morale: 4,
+      d4: 1,
+      d6: 1,
+      d8: 1,
       d10: 0,
       d12: 1,
       weapons: [
         {
           melee: true,
-          title: "Axe",
-          bonus: 1,
-          dieFace: 6,
-          dieBonus: 2,
-          notes: "can be used to chop wood"
+          title: "Sword",
+          bonus: 0,
+          dieFace: 8,
+          dieBonus: 1,
+          notes: ""
         },
         {
           melee: false,
-          title: "Sling",
-          bonus: 0,
-          dieFace: 6,
+          title: "Bow",
+          bonus: 1,
+          dieFace: 8,
           dieBonus: 0,
           notes: ""
         },
       ],
       armor: {
-        title: "Leather",
+        title: "Shield",
         bonus: 1,
-        notes: "has a sigil of their bandit group painted on it"
+        notes: "Can be sacrificed to avoid taking damage"
       },
       abilities: []
     };
 
     return (
       <div class="bodyElement">
-        <h1>Bandit</h1>
+        <h1>Janissary</h1>
         <StatBlock stats={myStats}/>
       </div>
     );
   };
 
-export default Bandit;
+export default Janissary;

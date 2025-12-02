@@ -3,7 +3,9 @@ import LevelUpRollTable from "./LevelUpRollTable";
 const Rogue = () => {
   const myItems = [
     'Dex',
+    'Dex',
     'Wis',
+    'Cha',
     'd4 Effort',
     'd6 Effort'
   ];

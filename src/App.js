@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 import Magic from "./pages/Magic";
 import Equipment from "./pages/Equipment";
 import Classes from "./pages/Classes";
-import Adversaries from "./pages/Adversaries";
+import Encounters from "./pages/Encounters";
 import NoPage from "./pages/NoPage";
 import ClassesHome from "./pages/classes/ClassesHome";
 import Relics from "./pages/equipment/Relics";
@@ -19,10 +19,11 @@ import Explorer from "./pages/classes/Explorer";
 import Scholar from "./pages/classes/Scholar";
 import Ranger from "./pages/classes/Ranger";
 import Cleric from "./pages/classes/Cleric";
-import Bandit from "./pages/adversaries/Bandit";
-import Sphinx from "./pages/adversaries/Sphinx";
-import Brainlet from "./pages/adversaries/Brainlet";
-import VatThing from "./pages/adversaries/VatThing";
+import Bandit from "./pages/encounters/Bandit";
+import Janissary from "./pages/encounters/Janissary";
+import Sphinx from "./pages/encounters/Sphinx";
+import Brainlet from "./pages/encounters/Brainlet";
+import VatThing from "./pages/encounters/VatThing";
 
 function App() {
   return (
@@ -46,8 +47,9 @@ function App() {
             <Route path="Ranger" element={<Ranger />} />
             <Route path="Cleric" element={<Cleric />} />
           </Route>
-          <Route path="adversaries" element={<Adversaries />}>
+          <Route path="encounters" element={<Encounters />}>
             <Route path="Bandit" element={<Bandit />} />
+            <Route path="Janissary" element={<Janissary />} />
             <Route path="Sphinx" element={<Sphinx />} />
             <Route path="Brainlet" element={<Brainlet />} />
             <Route path="VatThing" element={<VatThing />} />

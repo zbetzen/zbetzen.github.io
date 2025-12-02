@@ -3,9 +3,11 @@ import LevelUpRollTable from "./LevelUpRollTable";
 const Fighter = () => {
   const myItems = [
     'Str',
+    'Str',
     'Dex',
     'Con',
     'd6 Effort',
+    'd8 Effort',
     'd8 Effort',
     'd12 Effort'
   ];

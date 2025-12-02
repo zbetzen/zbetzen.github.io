@@ -5,8 +5,10 @@ const Cleric = () => {
     'Con',
     'Wis',
     'Cha',
+    'Cha',
     'd4 Effort',
     'd10 Effort',
+    'd12 Effort',
     'd12 Effort'
   ];
 
