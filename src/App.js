@@ -3,12 +3,17 @@ import './App.css';
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import Magic from "./pages/Magic";
+import Setting from "./pages/Setting";
 import Equipment from "./pages/Equipment";
 import Classes from "./pages/Classes";
 import Encounters from "./pages/Encounters";
 import NoPage from "./pages/NoPage";
 import ClassesHome from "./pages/classes/ClassesHome";
 import Relics from "./pages/equipment/Relics";
+import SettingHome from "./pages/setting/SettingHome";
+import Land from "./pages/setting/Land";
+import Gods from "./pages/setting/Gods";
+import Races from "./pages/setting/Races";
 import EquipmentHome from "./pages/equipment/EquipmentHome";
 import Common from "./pages/equipment/Common";
 import Unique from "./pages/equipment/Unique";
@@ -31,6 +36,12 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
+          <Route path="setting" element={<Setting />}>
+            <Route index element={<SettingHome />} />
+            <Route path="Land" index element={<Land />} />
+            <Route path="Gods" index element={<Gods />} />
+            <Route path="Races" index element={<Races />} />
+          </Route>
           <Route path="equipment" element={<Equipment />}>
             <Route index element={<EquipmentHome />} />
             <Route path="Common" index element={<Common />} />
