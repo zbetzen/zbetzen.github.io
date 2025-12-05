@@ -22,7 +22,7 @@ const VatThing = () => {
           title: "Claw",
           bonus: 2,
           dieFace: 4,
-          dieBonus: 1,
+          dieBonus: 2,
           notes: ""
         },
         {
@@ -30,7 +30,7 @@ const VatThing = () => {
           title: "Bite",
           bonus: 0,
           dieFace: 4,
-          dieBonus: 3,
+          dieBonus: 1,
           notes: "Roll STR TN 13 to break free, or be grappled a turn."
         },
       ],
@@ -67,7 +67,7 @@ const VatThing = () => {
           title: "Claw",
           bonus: 0,
           dieFace: 4,
-          dieBonus: 1,
+          dieBonus: 0,
           notes: ""
         },
         {
@@ -145,7 +145,7 @@ const VatThing = () => {
         <p>Angry at the world for the crime of being born wrong.</p>
         <StatBlock stats={spitefulMutant}/>
         <h1>Rat King</h1>
-        <p>Four fragments reunited. The sorcerer king is whole again, although merged with the vermin below. A giant amalgam beast of fur and rat parts with four faces of Khalat floating about it's body.</p>
+        <p>Four fragments reunited. The sorcerer king is whole again, although merged with the vermin below. A giant amalgam beast of fur and limbs with four faces of Khalat floating about it's body.</p>
         <StatBlock stats={ratKing}/>
       </div>
     );
