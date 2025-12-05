@@ -110,7 +110,7 @@ const VatThing = () => {
         {
           melee: true,
           title: "Claw",
-          bonus: 0,
+          bonus: 1,
           dieFace: 4,
           dieBonus: 1,
           notes: "The head of a rat on the end of an arm. Hits everyone in CLOSE range."
@@ -120,7 +120,7 @@ const VatThing = () => {
           title: "Bite",
           bonus: 0,
           dieFace: 4,
-          dieBonus: 3,
+          dieBonus: 2,
           notes: "Roll STR TN 16 to break free, or be grappled by a rat's head on the end of an arm for a turn."
         },
       ],
@@ -133,6 +133,10 @@ const VatThing = () => {
         {
           title: "Four wills",
           description: "The rat king can take four actions on their turn from it's four minds."
+        },
+        {
+          title: "Dying Void",
+          description: "When killed Khalat refuses to move on. Khalatan slides into the underworld, darkness falls, and the dead rise."
         },
       ]
     };
