@@ -4,8 +4,12 @@ const Home = () => {
     return (
       <div class="bodyElement">
         <h1>Home</h1>
-        <Image filename="Map.png" />
-        <Image filename="FloodedCity.png" placeholder="true"/>
+        <p>
+          <Image filename="Map" />
+        </p>
+        <p>
+          <Image filename="FloodedCity" placeholder="true"/>
+        </p>
       </div>
     );
   };

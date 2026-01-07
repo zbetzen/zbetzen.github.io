@@ -53,7 +53,7 @@ const Sphinx = () => {
 
     return (
       <div class="bodyElement">
-        <h1>Sphinx (Young)</h1>
+        <h1>Sphinx</h1>
         <StatBlock stats={myStats}/>
       </div>
     );
