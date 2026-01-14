@@ -27,7 +27,6 @@ import Cleric from "./pages/classes/Cleric";
 import Bandit from "./pages/encounters/Bandit";
 import Janissary from "./pages/encounters/Janissary";
 import Sphinx from "./pages/encounters/Sphinx";
-import Brainlet from "./pages/encounters/Brainlet";
 import VatThing from "./pages/encounters/VatThing";
 
 function App() {
@@ -62,7 +61,6 @@ function App() {
             <Route path="Bandit" element={<Bandit />} />
             <Route path="Janissary" element={<Janissary />} />
             <Route path="Sphinx" element={<Sphinx />} />
-            <Route path="Brainlet" element={<Brainlet />} />
             <Route path="VatThing" element={<VatThing />} />
           </Route>
           <Route path="Magic" element={<Magic />} />

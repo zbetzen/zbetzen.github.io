@@ -15,9 +15,6 @@ const Encounters = () => {
             <Link to="/encounters/Sphinx">Sphinx (Young)</Link>
           </li>
           <li>
-            <Link to="/encounters/Brainlet">Brainlet</Link>
-          </li>
-          <li>
             <Link to="/encounters/VatThing">Vat Thing</Link>
           </li>
         </ul>
