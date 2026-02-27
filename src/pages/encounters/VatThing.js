@@ -1,4 +1,5 @@
-import StatBlock from "./StatBlock";
+import StatBlock from "./StatBlock"
+import Image from "../Image"
 
 const VatThing = () => {
   const brainlet = 
@@ -187,9 +188,12 @@ const VatThing = () => {
         <h1>Brainlet</h1>
         <StatBlock stats={brainlet}/>
         <h1>Vat Thing</h1>
+        <Image filename="VatThing" placeholder="true"/>
+        <p>A monster made from the leftovers of other monsters.</p>
         <StatBlock stats={vatThing}/>
         <h1>Spiteful Mutant</h1>
-        <p>Angry at the world for the crime of being born wrong.</p>
+        <Image filename="SpitefulMutant" placeholder="true"/>
+        <p>Angry at the world for the crime of being born.</p>
         <StatBlock stats={spitefulMutant}/>
         <h1>Rat King</h1>
         <p>Four fragments reunited. The sorcerer king is whole again, although merged with the vermin below. A giant amalgam beast of fur and limbs with four faces of Khalat floating about it's body.</p>

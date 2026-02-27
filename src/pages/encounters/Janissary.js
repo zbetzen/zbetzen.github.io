@@ -1,4 +1,5 @@
-import StatBlock from "./StatBlock";
+import StatBlock from "./StatBlock"
+import Image from "../Image"
 
 const Janissary = () => {
   const myStats = 
@@ -45,6 +46,8 @@ const Janissary = () => {
     return (
       <div class="bodyElement">
         <h1>Janissary</h1>
+        <Image filename="Janissary" placeholder="true"/>
+        <p>Forever loyal becuase they know they'd be destitute otherwise.</p>
         <StatBlock stats={myStats}/>
       </div>
     );
